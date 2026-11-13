@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pedro Romero — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="booting">
+<div id="boot"><button id="skip" type="button">Pular</button></div>
+<div id="particles" aria-hidden="true"></div>
+<div id="progress"></div>
+
+<header>
+  <div class="wrap">
+    <nav aria-label="Principal">
+      <a class="logo" href="#topo">&lt;Pedro Romero/&gt;</a>
+      <ul>
+        <li><a href="#sistema">Sistema</a></li>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#atributos">Atributos</a></li>
+        <li><a href="#missoes">Missões</a></li>
+        <li><a href="#jornada">Jornada</a></li>
+        <li><a href="#conquistas">Conquistas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="status"><i></i>Online, procurando vaga</p>
+        <h1 class="glitch" data-text="Pedro Romero">Pedro Romero</h1>
+        <p class="role">&gt; <span id="typed"></span></p>
+        <p class="lead">Universitário cursando Desenvolvimento de Software Multiplataforma, com foco em back-end.</p>
+        <div class="btns">
+          <a class="btn primary" href="#missoes">Ver missões</a>
+          <a class="btn ghost" href="#sistema">Explorar o sistema</a>
+        </div>
+      </div>
+      <aside class="hud card" aria-label="Ficha do jogador">
+        <div class="hud-top"><span class="avatar">PR</span><div><b>Pedro</b><small>Classe: Dev Back-end</small></div><span class="lvl">Nv. <b data-n="19">0</b></span></div>
+        <div class="xp"><div><span>XP</span><span>7.420 / 10.000</span></div><span class="meter"><i data-w="74" style="--c:var(--cyan);--c2:var(--violet)"></i></span></div>
+        <div class="xp"><div><span>Foco</span><span>92%</span></div><span class="meter"><i data-w="92" style="--c:var(--pink);--c2:var(--amber)"></i></span></div>
+        <dl class="mini">
+          <div><dt>Projetos</dt><dd><b data-n="2">0</b>+</dd></div>
+          <div><dt>Tecnologias</dt><dd><b data-n="7">0</b>+</dd></div>
+          <div><dt>Anos</dt><dd><b data-n="2">0</b></dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section id="sistema">
+    <div class="wrap">
+      <h2>Sistema</h2>
+      <p class="sub">Uma arquitetura back-end para explorar. Arraste para girar, passe o mouse nos nós e clique para disparar requisições.</p>
+      <div class="card stage" id="stage">
+        <canvas id="lab3d" role="img" aria-label="Cena 3D interativa de uma arquitetura back-end"></canvas>
+        <div class="node-info" id="nodeInfo" aria-live="polite"><b id="infoTitle">Arquitetura</b><span id="infoText">Passe o mouse em um nó para ver o que ele faz.</span></div>
+        <div class="stage-log" id="stageLog" aria-live="polite"></div>
+        <div class="stage-ui">
+          <button class="btn primary" id="sendReq" type="button">Enviar requisição</button>
+          <button class="btn ghost" id="resetView" type="button">Resetar câmera</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="perfil">
+    <div class="wrap">
+      <h2>Perfil</h2>
+      <div class="about">
+        <div class="card portrait"><img src="fotopessoal.jpeg" alt="Foto de Pedro Romero"></div>
+        <div>
+          <p>Sou estudante de desenvolvimento back-end, movido por transformar ideias em sistemas inteligentes.</p>
+          <p>Sou técnico em Informática e atualmente estou cursando a faculdade de Desenvolvimento de Software Multiplataforma.</p>
+          <div class="traits">
+            <div class="card"><h3>Clean Code</h3><p>Desenvolvimento limpo, código limpo.</p></div>
+            <div class="card"><h3>APIs e Dados</h3><p>API REST e modelagem de dados.</p></div>
+            <div class="card"><h3>Segurança</h3><p>Integridade de dados e boas práticas.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="atributos">
+    <div class="wrap">
+      <h2>Atributos</h2>
+      <p class="sub">Cada barra mostra o nível que domino em cada habilidade.</p>
+      <div class="skills">
+        <div class="card"><h3>Linguagens</h3>
+          <div class="sk" data-v="75"><div><span>Java</span><span>Nv. 7</span></div><span class="meter"><i style="--c:var(--cyan);--c2:var(--violet)"></i></span></div>
+          <div class="sk" data-v="70"><div><span>JavaScript</span><span>Nv. 7</span></div><span class="meter"><i style="--c:var(--cyan);--c2:var(--violet)"></i></span></div>
+          <div class="sk" data-v="78"><div><span>PHP</span><span>Nv. 7</span></div><span class="meter"><i style="--c:var(--cyan);--c2:var(--violet)"></i></span></div>
+          <div class="sk" data-v="60"><div><span>TypeScript</span><span>Nv. 6</span></div><span class="meter"><i style="--c:var(--cyan);--c2:var(--violet)"></i></span></div>
+        </div>
+        <div class="card"><h3>Back-end</h3>
+          <div class="sk" data-v="72"><div><span>Node.js</span><span>Nv. 7</span></div><span class="meter"><i style="--c:var(--pink);--c2:var(--amber)"></i></span></div>
+          <div class="sk" data-v="70"><div><span>APIs REST</span><span>Nv. 7</span></div><span class="meter"><i style="--c:var(--pink);--c2:var(--amber)"></i></span></div>
+          <div class="sk" data-v="62"><div><span>Autenticação (JWT)</span><span>Nv. 6</span></div><span class="meter"><i style="--c:var(--pink);--c2:var(--amber)"></i></span></div>
+          <div class="sk" data-v="55"><div><span>Integridade</span><span>Nv. 5</span></div><span class="meter"><i style="--c:var(--pink);--c2:var(--amber)"></i></span></div>
+        </div>
+        <div class="card"><h3>Dados e ferramentas</h3>
+          <div class="sk" data-v="76"><div><span>SQL</span><span>Nv. 7</span></div><span class="meter"><i style="--c:var(--lime);--c2:var(--cyan)"></i></span></div>
+          <div class="sk" data-v="60"><div><span>MySQL &amp; Oracle</span><span>Nv. 6</span></div><span class="meter"><i style="--c:var(--lime);--c2:var(--cyan)"></i></span></div>
+          <div class="sk" data-v="80"><div><span>Git e GitHub</span><span>Nv. 8</span></div><span class="meter"><i style="--c:var(--lime);--c2:var(--cyan)"></i></span></div>
+          <div class="sk" data-v="50"><div><span>Docker</span><span>Nv. 5</span></div><span class="meter"><i style="--c:var(--lime);--c2:var(--cyan)"></i></span></div>
+        </div>
+      </div>
+      <p class="learning">Treinando agora: <span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">Criação de API's</span></p>
+    </div>
+  </section>
+
+  <section id="missoes">
+    <div class="wrap">
+      <h2>Missões</h2>
+      <p class="sub">Projetos pessoais e acadêmicos.</p>
+      <div class="projects">
+        <article class="card proj tilt" style="--c:var(--cyan)"><span class="badge">Concluída</span><h3>Sistema ecommerce e analítico</h3><p>Sistema varejista com integração analítica de vendas e estoque</p><div class="stack"><span>PHP</span><span>JavaScript</span><span>MySQL</span></div><p class="res">Aprendi criptografía de dados sensíveis e tratamento contra SQL Injection</a></article>
+          
+        <article class="card proj tilt" style="--c:var(--pink)"><span class="badge">Concluída</span><h3>AdotaPet</h3><p>Portal unificador de ONG's e tutores</p><div class="stack"><span>PHP</span><span>JavaScript</span><span>MySQL</span></div><p class="res">Desenvolvi a modelagem, relacionamentos e banco de dados completo do sistema.</p><!-- <a href="#">Ver projeto</a> --></article>
+
+        <article class="card proj tilt" style="--c:var(--violet)"><span class="badge live">Em andamento</span><h3>Sistema de estacionamento público</h3><p>Sistema para a busca de vagas de estacionamentos em Praia Grande, integrado com mapa e geolocalização.</p><div class="stack"><span>Node.js</span><span>Leaflet</span><span>MySQL</span></div><p class="res">Rotas e tratamento de dados</p><!-- <a href="#">Ver projeto</a> --></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="jornada">
+    <div class="wrap">
+      <h2>Jornada</h2>
+      <p class="sub">O registro das fases que já passei, em ordem cronológica.</p>
+      <div class="tl">
+        <div class="fill"></div>
+        <article><small>Em andamento</small><h3>Tecnólogo em Desenvolvimento de Software Multiplataforma</h3><p>Estudo back-end, banco de dados e desenvolvimento de sistemas em projetos práticos.</p></article>
+        <article><small>Concluído</small><h3>Técnico em Informática</h3><p>Base em lógica de programação, redes e banco de dados.</p></article>
+        <article><small>Início</small><h3>Primeira linha de código</h3><p>Comecei estudando lógica e... HELLO WORLD!</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="conquistas">
+    <div class="wrap">
+      <h2>Conquistas</h2>
+      <div class="ach">
+        <div class="card" style="--c:var(--amber)"><small>Lendária</small><h3>Primeiro Sistema</h3><p>Desenvolvi um sistema ecommerce com integração analítica</p></div>
+        <div class="card" style="--c:var(--violet)"><small>Épica</small><h3>Técnico em Informática</h3><p>Formação técnica concluída.</p></div>
+        <div class="card" style="--c:var(--cyan)"><small>Rara</small><h3>Faculdade em andamento</h3><p>Cursando Desenvolvimento de Software Multiplataforma.</p></div>
+        <div class="card" style="--c:var(--lime)"><small>Comum</small><h3>Inglês técnico</h3><p>Leitura de documentação em inglês.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <h2>Continuar?</h2>
+      <div class="card term">
+        <p><span>$</span> status: disponível</p>
+        <p class="ok">Procurando estágio ou primeira vaga.</p>
+        <p><span>$</span> resposta: ágil</p>
+        <p class="ok">Até dois dias úteis.</p>
+        <div class="btns"><a class="btn primary" href="devpedroromero@gmail.com">Enviar e-mail</a><a class="btn ghost" href="https://github.com/PedroRomeroDev">GitHub</a><a class="btn ghost" href="https://www.linkedin.com/in/pedro-romero-1167122a6">LinkedIn</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>Pedro Romero · Desenvolvedor back-end</footer>
+
+<script src="libs/three.min.js"></script>
+<script src="libs/gsap.min.js"></script>
+<script src="libs/ScrollTrigger.min.js"></script>
+<script src="libs/tsparticles.slim.bundle.min.js"></script>
+<script src="libs/typed.umd.js"></script>
+<script src="libs/vanilla-tilt.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
